@@ -1,0 +1,62 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+.app__header {
+  overflow-x: hidden;
+  flex: 1;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  border-top: 1px solid white;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  background-image: url("../../assets/embedded-systems.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .app__header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+    text-align: center;
+  }
+
+  @media screen and (min-width: 2000px) {
+    padding-top: 8rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 450px) {
+    // padding: 6rem 1rem 2rem;
+  }
+}
+
+.app__header-info {
+  .app__header-name {
+    font-size: 5rem;
+  }
+
+  span {
+    // color:var(--orange-color);
+    display: inline;
+    color: var(--white-color);
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    margin-right: 0rem;
+  }
+}

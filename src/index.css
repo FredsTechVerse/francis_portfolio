@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+/* DEFINATION OF THE ROOT VARIABLES. */
+:root {
+  --font-base: "DM Sans", sans-serif;
+  --primary-color: #000080;
+  --secondary-color: #eff0f8;
+  --black-color: #151b2e;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --green-color:#f4db7d;
+  --orange-color:#ff3d3d;
+  --light-blue:#4531fc;
+  --dark-purple:#1a2238;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
